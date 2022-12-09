@@ -1,0 +1,7 @@
+# QLAMMP: A Q-Learning Agent for Optimizing Fees on Automated Market Making Protocols
+
+Automated Market Makers (AMMs) have cemented themselves as an integral part of the decentralized finance (DeFi) space. AMMs are a type of exchange that allows users to trade assets without the need for a centralized exchange. They form the foundation for numerous decentralized exchanges (DEXs), which help facilitate the quick and efficient exchange of on-chain tokens. All present-day popular DEXs are static protocols, with fixed parameters controlling the fee and the curvature - they suffer from invariance and cannot adapt to quickly changing market conditions. This characteristic may cause traders to stay away during high slippage conditions brought about by intractable market movements. We propose an RL framework to optimize the fees collected on an AMM protocol. In particular, we develop a Q-Learning Agent for Market Making Protocols (QLAMMP) that learns the optimal fee rates and leverage coefficients for a given AMM protocol and maximizes the expected fee collected under a range of different market conditions. We show that QLAMMP is consistently able to outperform its static counterparts under all the simulated test conditions.
+
+Paper link:
+> Churiwala, D., Krishnamachari, B. (2022) [QLAMMP: A Q-Learning Agent for Optimizing Fees on Automated Market Making Protocols](https://arxiv.org/abs/2211.14977). arXiv e-prints, arXiv-2211.
+
